@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Servidor local de impresión térmica",
   "main": "index.js",
+  "bin":"index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
@@ -14,7 +15,9 @@
   "author": "",
   "license": "ISC",
   "pkg": {
-    "targets": ["node16-win-x64"],
+    "targets": [
+      "node16-win-x64"
+    ],
     "outputPath": "dist"
   },
   "dependencies": {
@@ -22,7 +25,8 @@
     "escpos": "^3.0.0-alpha.6",
     "escpos-usb": "^3.0.0-alpha.4",
     "express": "^4.21.2",
-    "node-windows": "^1.0.0-beta.8"
+    "node-windows": "^1.0.0-beta.8",
+    "usb": "^2.14.0"
   },
   "devDependencies": {
     "pkg": "^5.8.1"

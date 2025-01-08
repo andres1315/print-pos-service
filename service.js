@@ -3,12 +3,15 @@ const Service = require('node-windows').Service;
 const path = require('path');
 
 const svc = new Service({
-    name: 'PrinterService',
+    name: 'PrinterServiceThermal',
     description: 'Servidor local de impresión térmica',
     script: path.join(__dirname, 'index.js'),
-    nodeOptions: [],
+    /* nodeOptions: [
+        '--harmony',
+        '--max_old_space_size=4096'
+    ],
     workingDirectory: __dirname,
-    allowServiceLogon: true
+    allowServiceLogon: true */
 });
 
 // Escuchar eventos del servicio

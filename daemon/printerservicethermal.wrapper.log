@@ -1,0 +1,16 @@
+2025-01-08 13:49:45 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\print-pos-service\node_modules\node-windows\lib\wrapper.js --file C:\print-pos-service\index.js --scriptoptions= --log "PrinterServiceThermal wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2025-01-08 13:49:45 - Started 20168
+2025-01-08 13:54:27 - Stopping printerservicethermal.exe
+2025-01-08 13:54:27 - ProcessKill 20168
+2025-01-08 13:54:28 - Found child process: 33200 Name: conhost.exe
+2025-01-08 13:54:28 - Found child process: 50272 Name: node.exe
+2025-01-08 13:54:28 - Stopping process 33200
+2025-01-08 13:54:28 - Send SIGINT 33200
+2025-01-08 13:54:28 - SIGINT to 33200 failed - Killing as fallback
+2025-01-08 13:54:28 - Stopping process 50272
+2025-01-08 13:54:28 - Send SIGINT 50272
+2025-01-08 13:54:28 - SIGINT to 50272 failed - Killing as fallback
+2025-01-08 13:54:28 - Stopping process 20168
+2025-01-08 13:54:28 - Send SIGINT 20168
+2025-01-08 13:54:28 - SIGINT to 20168 failed - Killing as fallback
+2025-01-08 13:54:28 - Finished printerservicethermal.exe
