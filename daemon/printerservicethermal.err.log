@@ -1,2 +1,514 @@
-(node:50272) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(node:6372) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Error al encontrar la impresora: Error: Can not find printer
+    at new USB (C:\print-pos-service\node_modules\escpos-usb\index.js:50:11)
+    at findPrinter (C:\print-pos-service\index.js:22:20)
+    at C:\print-pos-service\index.js:67:26
+    at Layer.handle [as handle_request] (C:\print-pos-service\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\print-pos-service\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\print-pos-service\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\print-pos-service\node_modules\express\lib\router\layer.js:95:5)
+    at C:\print-pos-service\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\print-pos-service\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\print-pos-service\node_modules\express\lib\router\index.js:280:10)
+Error al encontrar la impresora: Error: Can not find printer
+    at new USB (C:\print-pos-service\node_modules\escpos-usb\index.js:50:11)
+    at findPrinter (C:\print-pos-service\index.js:22:20)
+    at C:\print-pos-service\index.js:67:26
+    at Layer.handle [as handle_request] (C:\print-pos-service\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\print-pos-service\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\print-pos-service\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\print-pos-service\node_modules\express\lib\router\layer.js:95:5)
+    at C:\print-pos-service\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\print-pos-service\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\print-pos-service\node_modules\express\lib\router\index.js:280:10)
+Error al encontrar la impresora: Error: Can not find printer
+    at new USB (C:\print-pos-service\node_modules\escpos-usb\index.js:50:11)
+    at findPrinter (C:\print-pos-service\index.js:22:20)
+    at C:\print-pos-service\index.js:67:26
+    at Layer.handle [as handle_request] (C:\print-pos-service\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\print-pos-service\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\print-pos-service\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\print-pos-service\node_modules\express\lib\router\layer.js:95:5)
+    at C:\print-pos-service\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\print-pos-service\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\print-pos-service\node_modules\express\lib\router\index.js:280:10)
+Error al encontrar la impresora: Error: Can not find printer
+    at new USB (C:\print-pos-service\node_modules\escpos-usb\index.js:50:11)
+    at findPrinter (C:\print-pos-service\index.js:22:20)
+    at C:\print-pos-service\index.js:67:26
+    at Layer.handle [as handle_request] (C:\print-pos-service\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\print-pos-service\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\print-pos-service\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\print-pos-service\node_modules\express\lib\router\layer.js:95:5)
+    at C:\print-pos-service\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\print-pos-service\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\print-pos-service\node_modules\express\lib\router\index.js:280:10)
+Error al encontrar la impresora: Error: Can not find printer
+    at new USB (C:\print-pos-service\node_modules\escpos-usb\index.js:50:11)
+    at findPrinter (C:\print-pos-service\index.js:22:20)
+    at C:\print-pos-service\index.js:67:26
+    at Layer.handle [as handle_request] (C:\print-pos-service\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\print-pos-service\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\print-pos-service\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\print-pos-service\node_modules\express\lib\router\layer.js:95:5)
+    at C:\print-pos-service\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\print-pos-service\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\print-pos-service\node_modules\express\lib\router\index.js:280:10)
+Error al encontrar la impresora: Error: Can not find printer
+    at new USB (C:\print-pos-service\node_modules\escpos-usb\index.js:50:11)
+    at findPrinter (C:\print-pos-service\index.js:22:20)
+    at C:\print-pos-service\index.js:67:26
+    at Layer.handle [as handle_request] (C:\print-pos-service\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\print-pos-service\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\print-pos-service\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\print-pos-service\node_modules\express\lib\router\layer.js:95:5)
+    at C:\print-pos-service\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\print-pos-service\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\print-pos-service\node_modules\express\lib\router\index.js:280:10)
+Error al encontrar la impresora: Error: Can not find printer
+    at new USB (C:\print-pos-service\node_modules\escpos-usb\index.js:50:11)
+    at findPrinter (C:\print-pos-service\index.js:22:20)
+    at C:\print-pos-service\index.js:67:26
+    at Layer.handle [as handle_request] (C:\print-pos-service\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\print-pos-service\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\print-pos-service\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\print-pos-service\node_modules\express\lib\router\layer.js:95:5)
+    at C:\print-pos-service\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\print-pos-service\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\print-pos-service\node_modules\express\lib\router\index.js:280:10)
+Error al encontrar la impresora: Error: Can not find printer
+    at new USB (C:\print-pos-service\node_modules\escpos-usb\index.js:50:11)
+    at findPrinter (C:\print-pos-service\index.js:22:20)
+    at C:\print-pos-service\index.js:67:26
+    at Layer.handle [as handle_request] (C:\print-pos-service\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\print-pos-service\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\print-pos-service\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\print-pos-service\node_modules\express\lib\router\layer.js:95:5)
+    at C:\print-pos-service\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\print-pos-service\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\print-pos-service\node_modules\express\lib\router\index.js:280:10)
+Error al encontrar la impresora: Error: Can not find printer
+    at new USB (C:\print-pos-service\node_modules\escpos-usb\index.js:50:11)
+    at findPrinter (C:\print-pos-service\index.js:22:20)
+    at C:\print-pos-service\index.js:67:26
+    at Layer.handle [as handle_request] (C:\print-pos-service\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\print-pos-service\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\print-pos-service\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\print-pos-service\node_modules\express\lib\router\layer.js:95:5)
+    at C:\print-pos-service\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\print-pos-service\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\print-pos-service\node_modules\express\lib\router\index.js:280:10)
+Error al encontrar la impresora: Error: Can not find printer
+    at new USB (C:\print-pos-service\node_modules\escpos-usb\index.js:50:11)
+    at findPrinter (C:\print-pos-service\index.js:22:20)
+    at C:\print-pos-service\index.js:67:26
+    at Layer.handle [as handle_request] (C:\print-pos-service\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\print-pos-service\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\print-pos-service\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\print-pos-service\node_modules\express\lib\router\layer.js:95:5)
+    at C:\print-pos-service\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\print-pos-service\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\print-pos-service\node_modules\express\lib\router\index.js:280:10)
+Error al encontrar la impresora: Error: Can not find printer
+    at new USB (C:\print-pos-service\node_modules\escpos-usb\index.js:50:11)
+    at findPrinter (C:\print-pos-service\index.js:22:20)
+    at C:\print-pos-service\index.js:67:26
+    at Layer.handle [as handle_request] (C:\print-pos-service\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\print-pos-service\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\print-pos-service\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\print-pos-service\node_modules\express\lib\router\layer.js:95:5)
+    at C:\print-pos-service\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\print-pos-service\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\print-pos-service\node_modules\express\lib\router\index.js:280:10)
+Error al encontrar la impresora: Error: Can not find printer
+    at new USB (C:\print-pos-service\node_modules\escpos-usb\index.js:50:11)
+    at findPrinter (C:\print-pos-service\index.js:22:20)
+    at C:\print-pos-service\index.js:67:26
+    at Layer.handle [as handle_request] (C:\print-pos-service\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\print-pos-service\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\print-pos-service\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\print-pos-service\node_modules\express\lib\router\layer.js:95:5)
+    at C:\print-pos-service\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\print-pos-service\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\print-pos-service\node_modules\express\lib\router\index.js:280:10)
+Error al encontrar la impresora: Error: Can not find printer
+    at new USB (C:\print-pos-service\node_modules\escpos-usb\index.js:50:11)
+    at findPrinter (C:\print-pos-service\index.js:22:20)
+    at C:\print-pos-service\index.js:67:26
+    at Layer.handle [as handle_request] (C:\print-pos-service\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\print-pos-service\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\print-pos-service\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\print-pos-service\node_modules\express\lib\router\layer.js:95:5)
+    at C:\print-pos-service\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\print-pos-service\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\print-pos-service\node_modules\express\lib\router\index.js:280:10)
+Error al encontrar la impresora: Error: Can not find printer
+    at new USB (C:\print-pos-service\node_modules\escpos-usb\index.js:50:11)
+    at findPrinter (C:\print-pos-service\index.js:22:20)
+    at C:\print-pos-service\index.js:67:26
+    at Layer.handle [as handle_request] (C:\print-pos-service\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\print-pos-service\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\print-pos-service\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\print-pos-service\node_modules\express\lib\router\layer.js:95:5)
+    at C:\print-pos-service\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\print-pos-service\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\print-pos-service\node_modules\express\lib\router\index.js:280:10)
+Error al encontrar la impresora: Error: Can not find printer
+    at new USB (C:\print-pos-service\node_modules\escpos-usb\index.js:50:11)
+    at findPrinter (C:\print-pos-service\index.js:22:20)
+    at C:\print-pos-service\index.js:67:26
+    at Layer.handle [as handle_request] (C:\print-pos-service\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\print-pos-service\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\print-pos-service\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\print-pos-service\node_modules\express\lib\router\layer.js:95:5)
+    at C:\print-pos-service\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\print-pos-service\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\print-pos-service\node_modules\express\lib\router\index.js:280:10)
+Error al encontrar la impresora: Error: Can not find printer
+    at new USB (C:\print-pos-service\node_modules\escpos-usb\index.js:50:11)
+    at findPrinter (C:\print-pos-service\index.js:22:20)
+    at C:\print-pos-service\index.js:67:26
+    at Layer.handle [as handle_request] (C:\print-pos-service\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\print-pos-service\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\print-pos-service\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\print-pos-service\node_modules\express\lib\router\layer.js:95:5)
+    at C:\print-pos-service\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\print-pos-service\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\print-pos-service\node_modules\express\lib\router\index.js:280:10)
+Error al encontrar la impresora: Error: Can not find printer
+    at new USB (C:\print-pos-service\node_modules\escpos-usb\index.js:50:11)
+    at findPrinter (C:\print-pos-service\index.js:22:20)
+    at C:\print-pos-service\index.js:67:26
+    at Layer.handle [as handle_request] (C:\print-pos-service\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\print-pos-service\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\print-pos-service\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\print-pos-service\node_modules\express\lib\router\layer.js:95:5)
+    at C:\print-pos-service\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\print-pos-service\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\print-pos-service\node_modules\express\lib\router\index.js:280:10)
+Error al encontrar la impresora: Error: Can not find printer
+    at new USB (C:\print-pos-service\node_modules\escpos-usb\index.js:50:11)
+    at findPrinter (C:\print-pos-service\index.js:22:20)
+    at C:\print-pos-service\index.js:67:26
+    at Layer.handle [as handle_request] (C:\print-pos-service\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\print-pos-service\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\print-pos-service\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\print-pos-service\node_modules\express\lib\router\layer.js:95:5)
+    at C:\print-pos-service\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\print-pos-service\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\print-pos-service\node_modules\express\lib\router\index.js:280:10)
+Error al encontrar la impresora: Error: Can not find printer
+    at new USB (C:\print-pos-service\node_modules\escpos-usb\index.js:50:11)
+    at findPrinter (C:\print-pos-service\index.js:22:20)
+    at C:\print-pos-service\index.js:67:26
+    at Layer.handle [as handle_request] (C:\print-pos-service\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\print-pos-service\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\print-pos-service\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\print-pos-service\node_modules\express\lib\router\layer.js:95:5)
+    at C:\print-pos-service\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\print-pos-service\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\print-pos-service\node_modules\express\lib\router\index.js:280:10)
+Error al encontrar la impresora: Error: Can not find printer
+    at new USB (C:\print-pos-service\node_modules\escpos-usb\index.js:50:11)
+    at findPrinter (C:\print-pos-service\index.js:22:20)
+    at C:\print-pos-service\index.js:67:26
+    at Layer.handle [as handle_request] (C:\print-pos-service\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\print-pos-service\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\print-pos-service\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\print-pos-service\node_modules\express\lib\router\layer.js:95:5)
+    at C:\print-pos-service\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\print-pos-service\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\print-pos-service\node_modules\express\lib\router\index.js:280:10)
+Error al encontrar la impresora: Error: Can not find printer
+    at new USB (C:\print-pos-service\node_modules\escpos-usb\index.js:50:11)
+    at findPrinter (C:\print-pos-service\index.js:22:20)
+    at C:\print-pos-service\index.js:67:26
+    at Layer.handle [as handle_request] (C:\print-pos-service\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\print-pos-service\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\print-pos-service\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\print-pos-service\node_modules\express\lib\router\layer.js:95:5)
+    at C:\print-pos-service\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\print-pos-service\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\print-pos-service\node_modules\express\lib\router\index.js:280:10)
+Error al encontrar la impresora: Error: Can not find printer
+    at new USB (C:\print-pos-service\node_modules\escpos-usb\index.js:50:11)
+    at findPrinter (C:\print-pos-service\index.js:22:20)
+    at C:\print-pos-service\index.js:67:26
+    at Layer.handle [as handle_request] (C:\print-pos-service\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\print-pos-service\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\print-pos-service\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\print-pos-service\node_modules\express\lib\router\layer.js:95:5)
+    at C:\print-pos-service\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\print-pos-service\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\print-pos-service\node_modules\express\lib\router\index.js:280:10)
+Error al encontrar la impresora: Error: Can not find printer
+    at new USB (C:\print-pos-service\node_modules\escpos-usb\index.js:50:11)
+    at findPrinter (C:\print-pos-service\index.js:22:20)
+    at C:\print-pos-service\index.js:67:26
+    at Layer.handle [as handle_request] (C:\print-pos-service\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\print-pos-service\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\print-pos-service\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\print-pos-service\node_modules\express\lib\router\layer.js:95:5)
+    at C:\print-pos-service\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\print-pos-service\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\print-pos-service\node_modules\express\lib\router\index.js:280:10)
+Error al encontrar la impresora: Error: Can not find printer
+    at new USB (C:\print-pos-service\node_modules\escpos-usb\index.js:50:11)
+    at findPrinter (C:\print-pos-service\index.js:22:20)
+    at C:\print-pos-service\index.js:67:26
+    at Layer.handle [as handle_request] (C:\print-pos-service\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\print-pos-service\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\print-pos-service\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\print-pos-service\node_modules\express\lib\router\layer.js:95:5)
+    at C:\print-pos-service\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\print-pos-service\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\print-pos-service\node_modules\express\lib\router\index.js:280:10)
+Error al encontrar la impresora: Error: Can not find printer
+    at new USB (C:\print-pos-service\node_modules\escpos-usb\index.js:50:11)
+    at findPrinter (C:\print-pos-service\index.js:22:20)
+    at C:\print-pos-service\index.js:67:26
+    at Layer.handle [as handle_request] (C:\print-pos-service\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\print-pos-service\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\print-pos-service\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\print-pos-service\node_modules\express\lib\router\layer.js:95:5)
+    at C:\print-pos-service\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\print-pos-service\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\print-pos-service\node_modules\express\lib\router\index.js:280:10)
+Error al encontrar la impresora: Error: Can not find printer
+    at new USB (C:\print-pos-service\node_modules\escpos-usb\index.js:50:11)
+    at findPrinter (C:\print-pos-service\index.js:22:20)
+    at C:\print-pos-service\index.js:67:26
+    at Layer.handle [as handle_request] (C:\print-pos-service\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\print-pos-service\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\print-pos-service\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\print-pos-service\node_modules\express\lib\router\layer.js:95:5)
+    at C:\print-pos-service\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\print-pos-service\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\print-pos-service\node_modules\express\lib\router\index.js:280:10)
+Error al encontrar la impresora: Error: Can not find printer
+    at new USB (C:\print-pos-service\node_modules\escpos-usb\index.js:50:11)
+    at findPrinter (C:\print-pos-service\index.js:22:20)
+    at C:\print-pos-service\index.js:67:26
+    at Layer.handle [as handle_request] (C:\print-pos-service\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\print-pos-service\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\print-pos-service\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\print-pos-service\node_modules\express\lib\router\layer.js:95:5)
+    at C:\print-pos-service\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\print-pos-service\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\print-pos-service\node_modules\express\lib\router\index.js:280:10)
+Error al encontrar la impresora: Error: Can not find printer
+    at new USB (C:\print-pos-service\node_modules\escpos-usb\index.js:50:11)
+    at findPrinter (C:\print-pos-service\index.js:22:20)
+    at C:\print-pos-service\index.js:67:26
+    at Layer.handle [as handle_request] (C:\print-pos-service\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\print-pos-service\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\print-pos-service\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\print-pos-service\node_modules\express\lib\router\layer.js:95:5)
+    at C:\print-pos-service\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\print-pos-service\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\print-pos-service\node_modules\express\lib\router\index.js:280:10)
+Error al encontrar la impresora: Error: Can not find printer
+    at new USB (C:\print-pos-service\node_modules\escpos-usb\index.js:50:11)
+    at findPrinter (C:\print-pos-service\index.js:22:20)
+    at C:\print-pos-service\index.js:67:26
+    at Layer.handle [as handle_request] (C:\print-pos-service\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\print-pos-service\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\print-pos-service\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\print-pos-service\node_modules\express\lib\router\layer.js:95:5)
+    at C:\print-pos-service\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\print-pos-service\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\print-pos-service\node_modules\express\lib\router\index.js:280:10)
+Error al encontrar la impresora: Error: Can not find printer
+    at new USB (C:\print-pos-service\node_modules\escpos-usb\index.js:50:11)
+    at findPrinter (C:\print-pos-service\index.js:22:20)
+    at C:\print-pos-service\index.js:67:26
+    at Layer.handle [as handle_request] (C:\print-pos-service\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\print-pos-service\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\print-pos-service\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\print-pos-service\node_modules\express\lib\router\layer.js:95:5)
+    at C:\print-pos-service\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\print-pos-service\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\print-pos-service\node_modules\express\lib\router\index.js:280:10)
+Error al encontrar la impresora: Error: Can not find printer
+    at new USB (C:\print-pos-service\node_modules\escpos-usb\index.js:50:11)
+    at findPrinter (C:\print-pos-service\index.js:22:20)
+    at C:\print-pos-service\index.js:67:26
+    at Layer.handle [as handle_request] (C:\print-pos-service\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\print-pos-service\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\print-pos-service\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\print-pos-service\node_modules\express\lib\router\layer.js:95:5)
+    at C:\print-pos-service\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\print-pos-service\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\print-pos-service\node_modules\express\lib\router\index.js:280:10)
+Error al encontrar la impresora: Error: Can not find printer
+    at new USB (C:\print-pos-service\node_modules\escpos-usb\index.js:50:11)
+    at findPrinter (C:\print-pos-service\index.js:22:20)
+    at C:\print-pos-service\index.js:67:26
+    at Layer.handle [as handle_request] (C:\print-pos-service\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\print-pos-service\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\print-pos-service\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\print-pos-service\node_modules\express\lib\router\layer.js:95:5)
+    at C:\print-pos-service\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\print-pos-service\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\print-pos-service\node_modules\express\lib\router\index.js:280:10)
+Error al encontrar la impresora: Error: Can not find printer
+    at new USB (C:\print-pos-service\node_modules\escpos-usb\index.js:50:11)
+    at findPrinter (C:\print-pos-service\index.js:22:20)
+    at C:\print-pos-service\index.js:67:26
+    at Layer.handle [as handle_request] (C:\print-pos-service\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\print-pos-service\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\print-pos-service\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\print-pos-service\node_modules\express\lib\router\layer.js:95:5)
+    at C:\print-pos-service\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\print-pos-service\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\print-pos-service\node_modules\express\lib\router\index.js:280:10)
+Error al encontrar la impresora: Error: Can not find printer
+    at new USB (C:\print-pos-service\node_modules\escpos-usb\index.js:50:11)
+    at findPrinter (C:\print-pos-service\index.js:22:20)
+    at C:\print-pos-service\index.js:67:26
+    at Layer.handle [as handle_request] (C:\print-pos-service\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\print-pos-service\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\print-pos-service\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\print-pos-service\node_modules\express\lib\router\layer.js:95:5)
+    at C:\print-pos-service\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\print-pos-service\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\print-pos-service\node_modules\express\lib\router\index.js:280:10)
+Error al encontrar la impresora: Error: Can not find printer
+    at new USB (C:\print-pos-service\node_modules\escpos-usb\index.js:50:11)
+    at findPrinter (C:\print-pos-service\index.js:22:20)
+    at C:\print-pos-service\index.js:67:26
+    at Layer.handle [as handle_request] (C:\print-pos-service\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\print-pos-service\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\print-pos-service\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\print-pos-service\node_modules\express\lib\router\layer.js:95:5)
+    at C:\print-pos-service\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\print-pos-service\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\print-pos-service\node_modules\express\lib\router\index.js:280:10)
+Error al encontrar la impresora: Error: Can not find printer
+    at new USB (C:\print-pos-service\node_modules\escpos-usb\index.js:50:11)
+    at findPrinter (C:\print-pos-service\index.js:22:20)
+    at C:\print-pos-service\index.js:67:26
+    at Layer.handle [as handle_request] (C:\print-pos-service\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\print-pos-service\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\print-pos-service\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\print-pos-service\node_modules\express\lib\router\layer.js:95:5)
+    at C:\print-pos-service\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\print-pos-service\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\print-pos-service\node_modules\express\lib\router\index.js:280:10)
+Error al encontrar la impresora: Error: Can not find printer
+    at new USB (C:\print-pos-service\node_modules\escpos-usb\index.js:50:11)
+    at findPrinter (C:\print-pos-service\index.js:22:20)
+    at C:\print-pos-service\index.js:67:26
+    at Layer.handle [as handle_request] (C:\print-pos-service\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\print-pos-service\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\print-pos-service\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\print-pos-service\node_modules\express\lib\router\layer.js:95:5)
+    at C:\print-pos-service\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\print-pos-service\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\print-pos-service\node_modules\express\lib\router\index.js:280:10)
+Error al encontrar la impresora: Error: Can not find printer
+    at new USB (C:\print-pos-service\node_modules\escpos-usb\index.js:50:11)
+    at findPrinter (C:\print-pos-service\index.js:22:20)
+    at C:\print-pos-service\index.js:67:26
+    at Layer.handle [as handle_request] (C:\print-pos-service\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\print-pos-service\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\print-pos-service\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\print-pos-service\node_modules\express\lib\router\layer.js:95:5)
+    at C:\print-pos-service\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\print-pos-service\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\print-pos-service\node_modules\express\lib\router\index.js:280:10)
+Error al encontrar la impresora: Error: Can not find printer
+    at new USB (C:\print-pos-service\node_modules\escpos-usb\index.js:50:11)
+    at findPrinter (C:\print-pos-service\index.js:22:20)
+    at C:\print-pos-service\index.js:67:26
+    at Layer.handle [as handle_request] (C:\print-pos-service\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\print-pos-service\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\print-pos-service\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\print-pos-service\node_modules\express\lib\router\layer.js:95:5)
+    at C:\print-pos-service\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\print-pos-service\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\print-pos-service\node_modules\express\lib\router\index.js:280:10)
+Error al encontrar la impresora: Error: Can not find printer
+    at new USB (C:\print-pos-service\node_modules\escpos-usb\index.js:50:11)
+    at findPrinter (C:\print-pos-service\index.js:22:20)
+    at C:\print-pos-service\index.js:67:26
+    at Layer.handle [as handle_request] (C:\print-pos-service\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\print-pos-service\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\print-pos-service\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\print-pos-service\node_modules\express\lib\router\layer.js:95:5)
+    at C:\print-pos-service\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\print-pos-service\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\print-pos-service\node_modules\express\lib\router\index.js:280:10)
+Error al encontrar la impresora: Error: Can not find printer
+    at new USB (C:\print-pos-service\node_modules\escpos-usb\index.js:50:11)
+    at findPrinter (C:\print-pos-service\index.js:22:20)
+    at C:\print-pos-service\index.js:67:26
+    at Layer.handle [as handle_request] (C:\print-pos-service\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\print-pos-service\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\print-pos-service\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\print-pos-service\node_modules\express\lib\router\layer.js:95:5)
+    at C:\print-pos-service\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\print-pos-service\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\print-pos-service\node_modules\express\lib\router\index.js:280:10)
+Error al encontrar la impresora: Error: Can not find printer
+    at new USB (C:\print-pos-service\node_modules\escpos-usb\index.js:50:11)
+    at findPrinter (C:\print-pos-service\index.js:22:20)
+    at C:\print-pos-service\index.js:67:26
+    at Layer.handle [as handle_request] (C:\print-pos-service\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\print-pos-service\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\print-pos-service\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\print-pos-service\node_modules\express\lib\router\layer.js:95:5)
+    at C:\print-pos-service\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\print-pos-service\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\print-pos-service\node_modules\express\lib\router\index.js:280:10)
+Error al encontrar la impresora: Error: Can not find printer
+    at new USB (C:\print-pos-service\node_modules\escpos-usb\index.js:50:11)
+    at findPrinter (C:\print-pos-service\index.js:22:20)
+    at C:\print-pos-service\index.js:67:26
+    at Layer.handle [as handle_request] (C:\print-pos-service\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\print-pos-service\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\print-pos-service\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\print-pos-service\node_modules\express\lib\router\layer.js:95:5)
+    at C:\print-pos-service\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\print-pos-service\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\print-pos-service\node_modules\express\lib\router\index.js:280:10)
+(node:9716) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:21424) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Error al encontrar la impresora: Error: Can not find printer
+    at new USB (C:\print-pos-service\node_modules\escpos-usb\index.js:50:11)
+    at findPrinter (C:\print-pos-service\index.js:22:20)
+    at C:\print-pos-service\index.js:68:26
+    at Layer.handle [as handle_request] (C:\print-pos-service\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\print-pos-service\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\print-pos-service\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\print-pos-service\node_modules\express\lib\router\layer.js:95:5)
+    at C:\print-pos-service\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\print-pos-service\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\print-pos-service\node_modules\express\lib\router\index.js:280:10)
+Error al encontrar la impresora: Error: Can not find printer
+    at new USB (C:\print-pos-service\node_modules\escpos-usb\index.js:50:11)
+    at findPrinter (C:\print-pos-service\index.js:22:20)
+    at C:\print-pos-service\index.js:68:26
+    at Layer.handle [as handle_request] (C:\print-pos-service\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\print-pos-service\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\print-pos-service\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\print-pos-service\node_modules\express\lib\router\layer.js:95:5)
+    at C:\print-pos-service\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\print-pos-service\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\print-pos-service\node_modules\express\lib\router\index.js:280:10)
+Error al encontrar la impresora: Error: Can not find printer
+    at new USB (C:\print-pos-service\node_modules\escpos-usb\index.js:50:11)
+    at findPrinter (C:\print-pos-service\index.js:22:20)
+    at C:\print-pos-service\index.js:68:26
+    at Layer.handle [as handle_request] (C:\print-pos-service\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\print-pos-service\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\print-pos-service\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\print-pos-service\node_modules\express\lib\router\layer.js:95:5)
+    at C:\print-pos-service\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\print-pos-service\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\print-pos-service\node_modules\express\lib\router\index.js:280:10)
+(node:1236) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
 (Use `node --trace-deprecation ...` to show where the warning was created)
