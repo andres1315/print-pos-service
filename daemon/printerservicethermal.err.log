@@ -512,3 +512,163 @@ Error al encontrar la impresora: Error: Can not find printer
     at next (C:\print-pos-service\node_modules\express\lib\router\index.js:280:10)
 (node:1236) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
 (Use `node --trace-deprecation ...` to show where the warning was created)
+(node:7788) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:11840) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Error al encontrar la impresora: Error: Can not find printer
+    at new USB (C:\print-pos-service\node_modules\escpos-usb\index.js:50:11)
+    at findPrinter (C:\print-pos-service\index.js:22:20)
+    at C:\print-pos-service\index.js:68:26
+    at Layer.handle [as handle_request] (C:\print-pos-service\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\print-pos-service\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\print-pos-service\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\print-pos-service\node_modules\express\lib\router\layer.js:95:5)
+    at C:\print-pos-service\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\print-pos-service\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\print-pos-service\node_modules\express\lib\router\index.js:280:10)
+Error al encontrar la impresora: Error: Can not find printer
+    at new USB (C:\print-pos-service\node_modules\escpos-usb\index.js:50:11)
+    at findPrinter (C:\print-pos-service\index.js:22:20)
+    at C:\print-pos-service\index.js:68:26
+    at Layer.handle [as handle_request] (C:\print-pos-service\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\print-pos-service\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\print-pos-service\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\print-pos-service\node_modules\express\lib\router\layer.js:95:5)
+    at C:\print-pos-service\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\print-pos-service\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\print-pos-service\node_modules\express\lib\router\index.js:280:10)
+Error al encontrar la impresora: Error: Can not find printer
+    at new USB (C:\print-pos-service\node_modules\escpos-usb\index.js:50:11)
+    at findPrinter (C:\print-pos-service\index.js:22:20)
+    at C:\print-pos-service\index.js:68:26
+    at Layer.handle [as handle_request] (C:\print-pos-service\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\print-pos-service\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\print-pos-service\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\print-pos-service\node_modules\express\lib\router\layer.js:95:5)
+    at C:\print-pos-service\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\print-pos-service\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\print-pos-service\node_modules\express\lib\router\index.js:280:10)
+Error al encontrar la impresora: Error: Can not find printer
+    at new USB (C:\print-pos-service\node_modules\escpos-usb\index.js:50:11)
+    at findPrinter (C:\print-pos-service\index.js:22:20)
+    at C:\print-pos-service\index.js:68:26
+    at Layer.handle [as handle_request] (C:\print-pos-service\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\print-pos-service\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\print-pos-service\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\print-pos-service\node_modules\express\lib\router\layer.js:95:5)
+    at C:\print-pos-service\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\print-pos-service\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\print-pos-service\node_modules\express\lib\router\index.js:280:10)
+Error al encontrar la impresora: Error: Can not find printer
+    at new USB (C:\print-pos-service\node_modules\escpos-usb\index.js:50:11)
+    at findPrinter (C:\print-pos-service\index.js:22:20)
+    at C:\print-pos-service\index.js:68:26
+    at Layer.handle [as handle_request] (C:\print-pos-service\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\print-pos-service\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\print-pos-service\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\print-pos-service\node_modules\express\lib\router\layer.js:95:5)
+    at C:\print-pos-service\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\print-pos-service\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\print-pos-service\node_modules\express\lib\router\index.js:280:10)
+Error al encontrar la impresora: Error: Can not find printer
+    at new USB (C:\print-pos-service\node_modules\escpos-usb\index.js:50:11)
+    at findPrinter (C:\print-pos-service\index.js:22:20)
+    at C:\print-pos-service\index.js:68:26
+    at Layer.handle [as handle_request] (C:\print-pos-service\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\print-pos-service\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\print-pos-service\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\print-pos-service\node_modules\express\lib\router\layer.js:95:5)
+    at C:\print-pos-service\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\print-pos-service\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\print-pos-service\node_modules\express\lib\router\index.js:280:10)
+Error al encontrar la impresora: Error: Can not find printer
+    at new USB (C:\print-pos-service\node_modules\escpos-usb\index.js:50:11)
+    at findPrinter (C:\print-pos-service\index.js:22:20)
+    at C:\print-pos-service\index.js:68:26
+    at Layer.handle [as handle_request] (C:\print-pos-service\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\print-pos-service\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\print-pos-service\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\print-pos-service\node_modules\express\lib\router\layer.js:95:5)
+    at C:\print-pos-service\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\print-pos-service\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\print-pos-service\node_modules\express\lib\router\index.js:280:10)
+(node:6968) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:7380) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:7212) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:49732) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Error al encontrar la impresora: Error: Can not find printer
+    at new USB (C:\print-pos-service\node_modules\escpos-usb\index.js:50:11)
+    at findPrinter (C:\print-pos-service\index.js:22:20)
+    at C:\print-pos-service\index.js:69:26
+    at Layer.handle [as handle_request] (C:\print-pos-service\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\print-pos-service\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\print-pos-service\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\print-pos-service\node_modules\express\lib\router\layer.js:95:5)
+    at C:\print-pos-service\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\print-pos-service\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\print-pos-service\node_modules\express\lib\router\index.js:280:10)
+(node:4212) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:43004) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Error al encontrar la impresora: Error: Can not find printer
+    at new USB (C:\print-pos-service\node_modules\escpos-usb\index.js:50:11)
+    at findPrinter (C:\print-pos-service\index.js:21:20)
+    at C:\print-pos-service\index.js:68:26
+    at Layer.handle [as handle_request] (C:\print-pos-service\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\print-pos-service\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\print-pos-service\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\print-pos-service\node_modules\express\lib\router\layer.js:95:5)
+    at C:\print-pos-service\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\print-pos-service\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\print-pos-service\node_modules\express\lib\router\index.js:280:10)
+(node:23824) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:40852) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:5496) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Error al encontrar la impresora: Error: Can not find printer
+    at new USB (C:\print-pos-service\node_modules\escpos-usb\index.js:50:11)
+    at findPrinter (C:\print-pos-service\index.js:21:20)
+    at C:\print-pos-service\index.js:68:26
+    at Layer.handle [as handle_request] (C:\print-pos-service\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\print-pos-service\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\print-pos-service\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\print-pos-service\node_modules\express\lib\router\layer.js:95:5)
+    at C:\print-pos-service\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\print-pos-service\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\print-pos-service\node_modules\express\lib\router\index.js:280:10)
+(node:42572) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:50420) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:2844) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:40048) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:31112) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:45400) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:39092) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:46648) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:1964) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+C:\print-pos-service\index.js:210
+          .text(`cufe ${qrCodeImageData.cufe.toString()}`)
+                                             ^
+
+TypeError: Cannot read properties of undefined (reading 'toString')
+    at C:\print-pos-service\index.js:210:46
+
+Node.js v22.11.0
+(node:32696) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
