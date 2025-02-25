@@ -382,3 +382,21 @@ Stacktrace:   en System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInter
 2025-02-20 17:03:13 - Send SIGINT 36964
 2025-02-20 17:03:13 - SIGINT to 36964 failed - Killing as fallback
 2025-02-20 17:03:13 - Finished printerservicethermal.exe
+2025-02-25 13:26:32 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\print-pos-service\node_modules\node-windows\lib\wrapper.js --file C:\print-pos-service\index.js --scriptoptions= --log "PrinterServiceThermal wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2025-02-25 13:26:32 - Started 26880
+2025-02-25 14:15:33 - Stopping printerservicethermal.exe
+2025-02-25 14:15:33 - ProcessKill 26880
+2025-02-25 14:15:33 - Found child process: 14932 Name: conhost.exe
+2025-02-25 14:15:33 - Found child process: 29532 Name: node.exe
+2025-02-25 14:15:33 - Stopping process 14932
+2025-02-25 14:15:33 - Send SIGINT 14932
+2025-02-25 14:15:33 - SIGINT to 14932 failed - Killing as fallback
+2025-02-25 14:15:33 - Stopping process 29532
+2025-02-25 14:15:33 - Send SIGINT 29532
+2025-02-25 14:15:33 - SIGINT to 29532 failed - Killing as fallback
+2025-02-25 14:15:33 - Stopping process 26880
+2025-02-25 14:15:33 - Send SIGINT 26880
+2025-02-25 14:15:33 - SIGINT to 26880 failed - Killing as fallback
+2025-02-25 14:15:33 - Finished printerservicethermal.exe
+2025-02-25 14:15:35 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\print-pos-service\node_modules\node-windows\lib\wrapper.js --file C:\print-pos-service\index.js --scriptoptions= --log "PrinterServiceThermal wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2025-02-25 14:15:35 - Started 31112

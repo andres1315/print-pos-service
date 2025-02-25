@@ -11,6 +11,6 @@ if %errorLevel% == 0 (
     net start "PrinterServiceThermal"
 ) else (
     echo Solicitando permisos de administrador...
-    powershell -Command "Start-Process cmd -ArgumentList '/c restart-service.bat' -Verb RunAs"
+    powershell -Command "Start-Process cmd -ArgumentList '/c %~dp0restart-service.bat' -Verb RunAs"
 )
 pause
