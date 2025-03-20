@@ -80,7 +80,7 @@ app.post("/print", async (req, res) => {
         return res.status(500).json({ message: "Error al abrir la impresora" });
       }
 
-      if (report) {
+      if (!report) {
         printer
           .font("a")
           .align("ct")
