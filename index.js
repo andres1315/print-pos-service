@@ -57,7 +57,8 @@ app.post("/print", async (req, res) => {
       ownerPhone,
       report,
       qrCodeImageData,
-      methodsPayments
+      methodsPayments,
+      typeInvoice
     } = req.body;
     
     if (!text) {
@@ -79,7 +80,7 @@ app.post("/print", async (req, res) => {
         return res.status(500).json({ message: "Error al abrir la impresora" });
       }
 
-      if (!report) {
+      if (report) {
         printer
           .font("a")
           .align("ct")
@@ -95,10 +96,14 @@ app.post("/print", async (req, res) => {
         let tableCompany = "";
         let tableResolution = "";
         let tableClient = "";
-        let tableProduct = "";
         let tableProductTotal = "";
         let tableProductCant = "";
+        let tableOwnerSoftware = "";
         let lineBreak = "------------------------------------------------";
+        console.log(typeInvoice)
+        const isElectronicInvoice = typeInvoice.isElectronicInvoice;
+        const isPOS = typeInvoice.isPOS;
+        const isElectronicPOS=typeInvoice.isElectronicPOS
         // Header
         tableCompany += `${enterprise}\n`;
         tableCompany += `${commands.TEXT_FORMAT.TXT_BOLD_ON}NIT: ${nit}${commands.TEXT_FORMAT.TXT_BOLD_OFF}\n`;
@@ -115,9 +120,8 @@ app.post("/print", async (req, res) => {
         }
         tableCompany += `${commands.TEXT_FORMAT.TXT_BOLD_ON}${numberBill}${commands.TEXT_FORMAT.TXT_BOLD_OFF}\n`;
         tableCompany += `PEDIDO: ${commands.TEXT_FORMAT.TXT_BOLD_ON}${numberOrder}${commands.TEXT_FORMAT.TXT_BOLD_OFF}\n`;
-        tableCompany += `${commands.TEXT_FORMAT.TXT_BOLD_ON}Fecha y Hora:${commands.TEXT_FORMAT.TXT_BOLD_OFF} 
-        ${new Date().toLocaleString()}\n`;
-        tableCompany += lineBreak + "\n";
+        tableCompany += `${commands.TEXT_FORMAT.TXT_BOLD_ON}Fecha y Hora:${commands.TEXT_FORMAT.TXT_BOLD_OFF}${new Date().toLocaleString()}\n`;
+        tableCompany += lineBreak;
         
         
         printer
@@ -131,7 +135,7 @@ app.post("/print", async (req, res) => {
         tableClient += `${commands.TEXT_FORMAT.TXT_BOLD_ON} Cédula o nit:${commands.TEXT_FORMAT.TXT_BOLD_OFF} ${thirdPartyDoc}\n`;
         tableClient += `${commands.TEXT_FORMAT.TXT_BOLD_ON} Nombre:${commands.TEXT_FORMAT.TXT_BOLD_OFF} ${thirdPartyName}\n`;
         tableClient += `${commands.TEXT_FORMAT.TXT_BOLD_ON} Vendedor:${commands.TEXT_FORMAT.TXT_BOLD_OFF} ${sellerName}\n`;
-        tableClient += lineBreak + "\n";
+        tableClient += lineBreak;
         
           printer
             .font("a")
@@ -139,10 +143,11 @@ app.post("/print", async (req, res) => {
             .text(tableClient)
             .style("b")
             .tableCustom([
-              { text: `Producto`, width: 0.40, align: "LEFT" },
+              { text: `Código`, width: 0.15, align: "LEFT" },
+              { text: `Producto`, width: 0.32, align: "LEFT" },
               { text: `Cant`, width: 0.10, align: "RIGHT" },
-              { text: `Val Unit`, width:0.25, align: "RIGHT" },
-              { text: `Val Total`, width: 0.25, align: "RIGHT" },
+              { text: `Val Unit`, width:0.20, align: "RIGHT" },
+              { text: `Val Total`, width: 0.23, align: "RIGHT" },
             ])
             .style("NORMAL")
         
@@ -157,34 +162,35 @@ app.post("/print", async (req, res) => {
         let ipoconsumo = 0;
 
         
-          products.forEach(async(item, index) => {
-            const subtotal = item.Valor;
-            cantItems += item.Cantidad;
-            total += subtotal;
-  
-            const nro = `${index + 1}`.padStart(3, "0");
-            const cantidad =item.Cantidad;
-            const nombre = `${item.nameProduct}`.substring(0, 20);
-            const subtotalFormatted = subtotal
-              .toFixed(0)
-              .replace(/\B(?=(\d{3})+(?!\d))/g, ",")
-              const valUnitario = Number(subtotal/item.Cantidad).toFixed(0)
-              .replace(/\B(?=(\d{3})+(?!\d))/g, ",")
-            if (item.IvaId == "8.0000") {
-              ipoconsumo += item.Iva;
-            } else {
-              iva += item.Iva;
-            }
-  
-            printer
-            .tableCustom([
-              { text: nombre, width: 0.40, align: "LEFT" },
-              { text: cantidad, width: 0.10, align: "RIGHT" },
-              { text: valUnitario, width: 0.25, align: "RIGHT" },
-              { text: subtotalFormatted, width: 0.25, align: "RIGHT" },
-            ])
-            
-          });
+        products.forEach(async(item, index) => {
+          const subtotal = item.Valor;
+          cantItems += item.Cantidad;
+          total += subtotal;
+
+          const cantidad =item.Cantidad;
+          const nombre = `${item.nameProduct}`.substring(0, 30);
+          const productId = item.ProductoId;
+          const subtotalFormatted = subtotal
+            .toFixed(0)
+            .replace(/\B(?=(\d{3})+(?!\d))/g, ",")
+            const valUnitario = Number(subtotal/item.Cantidad).toFixed(0)
+            .replace(/\B(?=(\d{3})+(?!\d))/g, ",")
+          if (item.IvaId == "8.0000") {
+            ipoconsumo += item.Iva;
+          } else {
+            iva += item.Iva;
+          }
+
+          printer
+          .tableCustom([
+            { text: productId, width: 0.15, align: "LEFT" },
+            { text: nombre, width: 0.32, align: "LEFT" },
+            { text: cantidad, width: 0.10, align: "RIGHT" },
+            { text: valUnitario, width: 0.20, align: "RIGHT" },
+            { text: subtotalFormatted, width: 0.23, align: "RIGHT" },
+          ])
+          
+        });
         
         
 
@@ -195,10 +201,12 @@ app.post("/print", async (req, res) => {
           .toFixed(0)
           .replace(/\B(?=(\d{3})+(?!\d))/g, ",")
           .padStart(11)}\n`;
-        tableProductTotal += `IVA:  ${iva
-          .toFixed(0)
-          .replace(/\B(?=(\d{3})+(?!\d))/g, ",")
-          .padStart(11)}\n`;
+        if(isElectronicPOS || isElectronicInvoice){
+          tableProductTotal += `IVA:  ${iva
+            .toFixed(0)
+            .replace(/\B(?=(\d{3})+(?!\d))/g, ",")
+            .padStart(11)}\n`;
+        }
         tableProductTotal += `Impoconsumo:  ${ipoconsumo
           .toFixed(0)
           .replace(/\B(?=(\d{3})+(?!\d))/g, ",")
@@ -208,17 +216,15 @@ app.post("/print", async (req, res) => {
           .replace(/\B(?=(\d{3})+(?!\d))/g, ",")
           .padStart(11)}\n`;
         tableProductTotal += lineBreak;
-        
-        tableResolution += `Resolución : ${numResolution}\n`;
+        tableResolution +=lineBreak
+        tableResolution += `Número Resolución : ${numResolution}\n`;
         tableResolution += `Fecha Resolución : ${dateResolution}\n`;
         tableResolution += `Fecha Vencimiento Resolución : ${dateEndResolution}\n`;
         tableResolution += `Autorizado desde ${prefixResolution}-${startResolution} hasta ${prefixResolution}-${endResolution} \n`;
-        tableResolution += lineBreak;
-        tableResolution += `Impreso por : ${
-          ownerName ? ownerName : "Prosof S.A.S"
-        }\n`;
-        tableResolution += `Nit: ${ownerNit ? ownerNit : "900.320.258-0"}\n`;
-        tableResolution += `Tel: ${ownerPhone ? ownerPhone : "311 383 7234"}\n`;
+        tableOwnerSoftware += lineBreak;
+        tableOwnerSoftware += `Impreso por : ${ownerName ? ownerName : "Prosof S.A.S"}\n`;
+        tableOwnerSoftware += `Nit: ${ownerNit ? ownerNit : "900.320.258-0"}\n`;
+        tableOwnerSoftware += `Tel: ${ownerPhone ? ownerPhone : "311 383 7234"}\n`;
 
         
           printer
@@ -229,6 +235,7 @@ app.post("/print", async (req, res) => {
             .align("rt")
             .text(tableProductTotal)
             .align("lt")
+            .text('Forma de pago:')
             .tableCustom([
               { text: 'Nombre', width: 0.40, align: "LEFT" },
               { text: 'Valor', width: 0.60, align: "LEFT" }
@@ -261,15 +268,20 @@ app.post("/print", async (req, res) => {
            }); */
          }, 700);
         }
-
         setTimeout(() => {
+          let unionOwnerAndResolution = ''
+          if(isElectronicPOS || isElectronicInvoice){
+            unionOwnerAndResolution += tableResolution
+          }
+          unionOwnerAndResolution += tableOwnerSoftware
           printer
             .align("lt")
-            .text(tableResolution)
+            .text(unionOwnerAndResolution)
             .feed(3)
             .cut()
             .close();
-        }, 900)
+        }, 800)
+        
       }
 
       console.log("imprimiendo");

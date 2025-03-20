@@ -11,3 +11,6 @@ if %errorLevel% == 0 (
     powershell -Command "Start-Process cmd -ArgumentList '/c %~dp0install-service.bat' -Verb RunAs"
 )
 pause
+
+
+8013/CocoraAYB/api/selfservice

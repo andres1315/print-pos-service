@@ -400,3 +400,65 @@ Stacktrace:   en System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInter
 2025-02-25 14:15:33 - Finished printerservicethermal.exe
 2025-02-25 14:15:35 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\print-pos-service\node_modules\node-windows\lib\wrapper.js --file C:\print-pos-service\index.js --scriptoptions= --log "PrinterServiceThermal wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
 2025-02-25 14:15:35 - Started 31112
+2025-02-25 14:19:37 - Stopping printerservicethermal.exe
+2025-02-25 14:19:37 - ProcessKill 31112
+2025-02-25 14:19:37 - Found child process: 22740 Name: conhost.exe
+2025-02-25 14:19:37 - Found child process: 27340 Name: node.exe
+2025-02-25 14:19:38 - Stopping process 22740
+2025-02-25 14:19:38 - Send SIGINT 22740
+2025-02-25 14:19:38 - SIGINT to 22740 failed - Killing as fallback
+2025-02-25 14:19:38 - Stopping process 27340
+2025-02-25 14:19:38 - Send SIGINT 27340
+2025-02-25 14:19:38 - SIGINT to 27340 failed - Killing as fallback
+2025-02-25 14:19:38 - Stopping process 31112
+2025-02-25 14:19:38 - Send SIGINT 31112
+2025-02-25 14:19:38 - SIGINT to 31112 failed - Killing as fallback
+2025-02-25 14:19:38 - Finished printerservicethermal.exe
+2025-02-25 14:19:40 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\print-pos-service\node_modules\node-windows\lib\wrapper.js --file C:\print-pos-service\index.js --scriptoptions= --log "PrinterServiceThermal wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2025-02-25 14:19:40 - Started 41452
+2025-03-04 16:15:49 - Stopping printerservicethermal.exe
+2025-03-04 16:15:49 - ProcessKill 41452
+2025-03-04 16:15:49 - Shutdown exception
+Message:Clase no registrada
+
+Stacktrace:   en System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   en System.Management.ManagementScope.InitializeGuts(Object o)
+   en System.Management.ManagementScope.Initialize()
+   en System.Management.ManagementObjectSearcher.Initialize()
+   en System.Management.ManagementObjectSearcher.Get()
+   en winsw.WrapperService.GetChildPids(Int32 pid)
+   en winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   en winsw.WrapperService.StopIt()
+   en winsw.WrapperService.OnShutdown()
+2025-03-04 16:16:28 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\print-pos-service\node_modules\node-windows\lib\wrapper.js --file C:\print-pos-service\index.js --scriptoptions= --log "PrinterServiceThermal wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2025-03-04 16:16:28 - Started 6264
+2025-03-20 11:12:25 - Stopping printerservicethermal.exe
+2025-03-20 11:12:25 - ProcessKill 6264
+2025-03-20 11:12:25 - Found child process: 6312 Name: conhost.exe
+2025-03-20 11:12:25 - Found child process: 6460 Name: node.exe
+2025-03-20 11:12:25 - Stopping process 6312
+2025-03-20 11:12:25 - Send SIGINT 6312
+2025-03-20 11:12:25 - SIGINT to 6312 failed - Killing as fallback
+2025-03-20 11:12:25 - Stopping process 6460
+2025-03-20 11:12:25 - Send SIGINT 6460
+2025-03-20 11:12:25 - SIGINT to 6460 failed - Killing as fallback
+2025-03-20 11:12:25 - Stopping process 6264
+2025-03-20 11:12:25 - Send SIGINT 6264
+2025-03-20 11:12:25 - SIGINT to 6264 failed - Killing as fallback
+2025-03-20 11:12:25 - Finished printerservicethermal.exe
+2025-03-20 11:12:26 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\print-pos-service\node_modules\node-windows\lib\wrapper.js --file C:\print-pos-service\index.js --scriptoptions= --log "PrinterServiceThermal wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2025-03-20 11:12:26 - Started 29416
+2025-03-20 11:12:59 - Stopping printerservicethermal.exe
+2025-03-20 11:12:59 - ProcessKill 29416
+2025-03-20 11:12:59 - Found child process: 51740 Name: conhost.exe
+2025-03-20 11:12:59 - Found child process: 28740 Name: node.exe
+2025-03-20 11:12:59 - Stopping process 51740
+2025-03-20 11:12:59 - Send SIGINT 51740
+2025-03-20 11:12:59 - SIGINT to 51740 failed - Killing as fallback
+2025-03-20 11:12:59 - Stopping process 28740
+2025-03-20 11:12:59 - Send SIGINT 28740
+2025-03-20 11:12:59 - SIGINT to 28740 failed - Killing as fallback
+2025-03-20 11:12:59 - Stopping process 29416
+2025-03-20 11:12:59 - Send SIGINT 29416
+2025-03-20 11:12:59 - SIGINT to 29416 failed - Killing as fallback
+2025-03-20 11:12:59 - Finished printerservicethermal.exe
