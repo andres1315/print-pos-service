@@ -237,13 +237,13 @@ app.post("/print", async (req, res) => {
             .align("lt")
             .text('Forma de pago:')
             .tableCustom([
-              { text: 'Nombre', width: 0.40, align: "LEFT" },
-              { text: 'Valor', width: 0.60, align: "LEFT" }
+              { text: 'Nombre', width: 0.70, align: "LEFT" },
+              { text: 'Valor', width: 0.30, align: "LEFT" }
             ])
             .style("NORMAL")
             .tableCustom([
-              { text: methodsPayments?.name, width: 0.40, align: "LEFT" },
-              { text: total.toFixed(0).replace(/\B(?=(\d{3})+(?!\d))/g, ","), width: 0.60, align: "LEFT" }
+              { text: methodsPayments?.name, width: 0.70, align: "LEFT" },
+              { text: total.toFixed(0).replace(/\B(?=(\d{3})+(?!\d))/g, ","), width: 0.30, align: "LEFT" }
             ])
             .feed(1)
         
