@@ -60,7 +60,7 @@ app.post("/print", async (req, res) => {
       methodsPayments,
       typeInvoice
     } = req.body;
-    
+    const productsFiltered= products.filter(products=>products.ConsuProdPadre == null)
     if (!text) {
       return res
         .status(400)
@@ -143,7 +143,7 @@ app.post("/print", async (req, res) => {
             .text(tableClient)
             .style("b")
             .tableCustom([
-              { text: `Item`, width: 0.15, align: "LEFT" },
+              { text: `Código`, width: 0.15, align: "LEFT" },
               { text: `Producto`, width: 0.32, align: "LEFT" },
               { text: `Cant`, width: 0.10, align: "RIGHT" },
               { text: `Val Unit`, width:0.20, align: "RIGHT" },
@@ -162,7 +162,7 @@ app.post("/print", async (req, res) => {
         let ipoconsumo = 0;
 
         
-        products.forEach(async(item, index) => {
+        productsFiltered.forEach(async(item, index) => {
           const subtotal = item.Valor;
           cantItems += item.Cantidad;
           total += subtotal;
@@ -195,7 +195,7 @@ app.post("/print", async (req, res) => {
         
 
         
-        tableProductCant += `Cantidad Productos: ${cantItems}\n`;
+        tableProductCant += `Cantidad Productos: ${productsFiltered.length}\n`;
         tableProductCant += lineBreak;
         tableProductTotal += `Val. Antes Impuestos:  ${(total - iva - ipoconsumo)
           .toFixed(0)
