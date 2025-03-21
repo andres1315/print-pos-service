@@ -143,7 +143,7 @@ app.post("/print", async (req, res) => {
             .text(tableClient)
             .style("b")
             .tableCustom([
-              { text: `Código`, width: 0.15, align: "LEFT" },
+              { text: `Item`, width: 0.15, align: "LEFT" },
               { text: `Producto`, width: 0.32, align: "LEFT" },
               { text: `Cant`, width: 0.10, align: "RIGHT" },
               { text: `Val Unit`, width:0.20, align: "RIGHT" },
